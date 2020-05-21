@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Baloo Paaji 2", Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+header {
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(70, 70, 70);
+}
+
+.logo a img {
+  margin-top: 1.75rem;
+  width: 3rem;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.main-nav ul li a {
+  color: white;
+  font-size: 1.75rem;
+  padding: 0.25rem 0.5rem;
+  margin-right: 1.1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.main-nav ul li a:hover {
+  background-color: grey;
+}
+
+.main-nav ul li .more {
+  background-color: grey;
+}
+
+.search-nav {
+  max-width: 300px;
+  width: 100%;
+}
+
+
+.search-nav input {
+  padding: 0.5rem;
+  width: 100%;
+  border: none;
+  border-radius: 7px;
+  box-shadow: black;
+  font-size: 1.5rem;
+}
